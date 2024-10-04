@@ -9,7 +9,7 @@ export const ENVS = {
 
     // Goerli Mainnet
     CONTRACT_ADDRESS: "0x2E2eC85f95a20FA0ACde32719679Bc3a75D1E918",
-    CHAIN_ID: "0x5",
+    CHAIN_ID: "0x1",
 
     // BSC Mainnet
     // CONTRACT_ADDRESS: "0xb86677C6c61284fC5C76b065A164F1C811A488E3",
