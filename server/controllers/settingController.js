@@ -1,10 +1,10 @@
-const { Snipping, Front, SnippingDetail, FrontDetail } = require("../models");
-const app = require("../app.js");
+const { Snipping, Front, SnippingDetail, FrontDetail } = require('../models');
+const app = require('../app.js');
 
 function sendUpdateMessage() {
-  var aWss = app.wss.getWss("/");
-  aWss.clients.forEach(function(client) {
-    client.send("setting Updated");
+  var aWss = app.wss.getWss('/');
+  aWss.clients.forEach(function (client) {
+    client.send('setting Updated');
   });
 }
 
@@ -17,7 +17,7 @@ function resetSnipping(req, res) {
     .then((status) =>
       res.status(201).json({
         error: false,
-        message: "Snipping Information has been deleted",
+        message: 'Snipping Information has been deleted',
       })
     )
     .catch((error) =>
@@ -38,7 +38,7 @@ function resetFront(req, res) {
     .then((status) =>
       res.status(201).json({
         error: false,
-        message: "Snipping Information has been deleted",
+        message: 'Snipping Information has been deleted',
       })
     )
     .catch((error) =>
@@ -58,7 +58,7 @@ function initSnipping(req, res) {
     .then((status) =>
       res.status(201).json({
         error: false,
-        message: "Snipping Transaction History has been deleted",
+        message: 'Snipping Transaction History has been deleted',
       })
     )
     .catch((error) =>
@@ -78,7 +78,7 @@ function initFront(req, res) {
     .then((status) =>
       res.status(201).json({
         error: false,
-        message: "Front running Transaction History has been deleted",
+        message: 'Front running Transaction History has been deleted',
       })
     )
     .catch((error) =>
@@ -115,7 +115,7 @@ function resetAll(req, res) {
     .then((status) =>
       res.status(201).json({
         error: false,
-        message: "All Information has been deleted",
+        message: 'All Information has been deleted',
       })
     )
     .catch((error) =>

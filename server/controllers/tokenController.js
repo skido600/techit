@@ -1,4 +1,4 @@
-const { Token } = require("../models");
+const { Token } = require('../models');
 
 module.exports = {
   list(req, res) {
@@ -28,10 +28,9 @@ module.exports = {
   },
 
   delete(req, res) {
-      
     const { address } = req.body;
 
-    console.log(req.body)
+    console.log(req.body);
 
     Token.destroy({
       where: {
@@ -41,7 +40,7 @@ module.exports = {
       .then((status) =>
         res.status(201).json({
           error: false,
-          message: "token has been deleted",
+          message: 'token has been deleted',
         })
       )
       .catch((error) =>

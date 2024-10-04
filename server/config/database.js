@@ -1,5 +1,4 @@
 module.exports = {
-    dialect: 'sqlite',
-    storage: './server/data/database.sqlite'
-  }
-  
+  dialect: 'sqlite',
+  storage: './server/data/database.sqlite',
+};
