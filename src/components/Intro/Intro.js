@@ -1,20 +1,15 @@
-import "./Intro.scss";
+import './Intro.scss';
 
-import banner from "../../assets/img/banner image-01.jpg";
-import dropBack from "../../assets/img/2-geeks-by-drop-date-01.png";
-import dropDate from "../../assets/img/drop dates.png";
-import minus from "../../assets/img/minus.svg";
-import plus from "../../assets/img/plus.svg";
-import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSpinner } from "@fortawesome/free-solid-svg-icons";
+import banner from '../../assets/img/banner image-01.jpg';
+import dropBack from '../../assets/img/2-geeks-by-drop-date-01.png';
+import dropDate from '../../assets/img/drop dates.png';
+import minus from '../../assets/img/minus.svg';
+import plus from '../../assets/img/plus.svg';
+import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 
-export const Intro = ({
-  walletAddress,
-  onConnectWalletHandler,
-  mintLoading,
-  onMintHandler,
-}) => {
+export const Intro = ({ walletAddress, onConnectWalletHandler, mintLoading, onMintHandler }) => {
   const [number, setNumber] = useState(1);
   const [total, setTotal] = useState(0.03);
   const actionMinus = () => {
@@ -67,15 +62,11 @@ export const Intro = ({
                 if (!mintLoading) mintAction();
               }}
             >
-              {" "}
+              {' '}
               {mintLoading && (
-                <FontAwesomeIcon
-                  className="mint-spinner"
-                  icon={faSpinner}
-                  size="0.4x"
-                />
+                <FontAwesomeIcon className="mint-spinner" icon={faSpinner} size="0.4x" />
               )}
-              &nbsp;mint{" "}
+              &nbsp;mint{' '}
             </button>
           </div>
 

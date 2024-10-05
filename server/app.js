@@ -7,7 +7,7 @@ const cors = require('cors');
 // const expressWs = require('express-ws');
 const http = require('http');
 const path = require('path');
-const test = require('./test')
+const test = require('./test');
 var port = process.env.PORT || 8080;
 // models
 // var models = require('./models');
@@ -62,7 +62,6 @@ const getUniqueID = () => {
       .substring(1);
   return s4() + s4() + '-' + s4();
 };
-
 
 module.exports = app;
 global.snipSubscription = null;

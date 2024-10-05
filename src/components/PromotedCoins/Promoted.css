@@ -1,275 +1,267 @@
-.showcoinDivWrapped{
-    width: calc(100% - 10px);
-    /* height: 100%; */
-    display: flex;
-    justify-content: center;
-    
-    background-image: linear-gradient(to right, #DC1Bd9, #4EB4C3);
-    padding: 5px 5px 5px 5px;
-    border-top-right-radius: 50px;
-    position: relative;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.showcoinDivWrapped {
+  width: calc(100% - 10px);
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+
+  background-image: linear-gradient(to right, #dc1bd9, #4eb4c3);
+  padding: 5px 5px 5px 5px;
+  border-top-right-radius: 50px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.showcoinDiv{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 80px 20px 20px 20px;
-    background-color: #290825;
-    border-top-right-radius: 50px;
+.showcoinDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px 20px 20px;
+  background-color: #290825;
+  border-top-right-radius: 50px;
 }
 
-.diamondWrappedDiv{
-    position: absolute;
-    top: -25px;
-    left: 20px;
-    height: 60px;
-    width: 200px;
-    background-color: white;
-    border-radius: 20px;
-    background-image: linear-gradient(to right, #CE3CA7, #4291AE);
-    padding: 2px 2px 2px 2px;
+.diamondWrappedDiv {
+  position: absolute;
+  top: -25px;
+  left: 20px;
+  height: 60px;
+  width: 200px;
+  background-color: white;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #ce3ca7, #4291ae);
+  padding: 2px 2px 2px 2px;
 }
 
-.diamondDiv{
-    height: 100%; 
-    display: flex;
-    flex-direction: row;
-    border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-    background-color: #232C29;
-    color: white;
+.diamondDiv {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #232c29;
+  color: white;
 }
 
-.diamondDiv span{
-    color: white;
-    font-size: 17px;
+.diamondDiv span {
+  color: white;
+  font-size: 17px;
 }
 
-
-.rubyWrappedDiv{
-    position: absolute;
-    top: -25px;
-    left: 250px;
-    height: 60px;
-    width: 200px;
-    background-color: white;
-    border-radius: 20px;
-    background-image: linear-gradient(to right, #CE3CA7, #4291AE);
-    padding: 2px 2px 2px 2px;
+.rubyWrappedDiv {
+  position: absolute;
+  top: -25px;
+  left: 250px;
+  height: 60px;
+  width: 200px;
+  background-color: white;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #ce3ca7, #4291ae);
+  padding: 2px 2px 2px 2px;
 }
 
-.rubyDiv{
-    height: 100%; 
-    display: flex;
-    flex-direction: row;
-    border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-    background-color: #232C29;
+.rubyDiv {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #232c29;
 }
 
-.rubyDiv:hover{
-    background-image: linear-gradient(to right, #F606F9, #3EBADF);
+.rubyDiv:hover {
+  background-image: linear-gradient(to right, #f606f9, #3ebadf);
 }
-.rubyDiv span{
-    color: white;
-    font-size: 17px;
-}
-
-.rubyDiv img{
-    width: 35px;
-    height:35px;
-    margin-right: 10px;
+.rubyDiv span {
+  color: white;
+  font-size: 17px;
 }
 
-.emeraldWrappedDiv{
-    position: absolute;
-    top: -25px;
-    left: 480px;
-    height: 60px;
-    width: 200px;
-    background-color: white;
-    border-radius: 20px;
-    background-image: linear-gradient(to right, #CE3CA7, #4291AE);
-    padding: 2px 2px 2px 2px;
+.rubyDiv img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
 }
 
-.emeraldDiv{
-    height: 100%; 
-    display: flex;
-    flex-direction: row;
-    border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-    background-color: #232C29;
+.emeraldWrappedDiv {
+  position: absolute;
+  top: -25px;
+  left: 480px;
+  height: 60px;
+  width: 200px;
+  background-color: white;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #ce3ca7, #4291ae);
+  padding: 2px 2px 2px 2px;
 }
 
-.emeraldDiv:hover{
-    background-image: linear-gradient(to right, #F606F9, #3EBADF);
+.emeraldDiv {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #232c29;
 }
 
-.emeraldDiv span{
-    color: white;
-    font-size: 17px;
+.emeraldDiv:hover {
+  background-image: linear-gradient(to right, #f606f9, #3ebadf);
 }
 
-.emeraldDiv img{
-    width: 35px;
-    height:35px;
-    margin-right: 10px;
+.emeraldDiv span {
+  color: white;
+  font-size: 17px;
 }
 
-.voteBtnDiv{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* width: 400px; */
+.emeraldDiv img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
 }
 
-.voteBtnWrapped{
-    height: 40px;
-    width: 130px;
-    background-image: linear-gradient(to right, #CE3CA7, #4291AE);
-    padding: 3px 3px 3px 3px;
-    border-radius: 20px;
-    margin-left: 10px;
+.voteBtnDiv {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* width: 400px; */
 }
 
-.voteBtn{
-    width: 100%;
-    height: 100%;
-    background-color: #290825;
-    border-radius: 20px;
-    font-size: 15px;
-    color: white;
-    border: none;
-    /* border: 1px solid #F610FE; */
+.voteBtnWrapped {
+  height: 40px;
+  width: 130px;
+  background-image: linear-gradient(to right, #ce3ca7, #4291ae);
+  padding: 3px 3px 3px 3px;
+  border-radius: 20px;
+  margin-left: 10px;
 }
 
-.voteBtn:hover{
-    background-image: linear-gradient(to right, #DC1Bd9, #4EB4C3);
+.voteBtn {
+  width: 100%;
+  height: 100%;
+  background-color: #290825;
+  border-radius: 20px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  /* border: 1px solid #F610FE; */
 }
 
-.logoImgDiv{
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
+.voteBtn:hover {
+  background-image: linear-gradient(to right, #dc1bd9, #4eb4c3);
 }
 
-.timerImgDIv{
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-}
-.detailTitle{
-    color: white;
-}
-.detailContent{
-    color: #3fff00;
+.logoImgDiv {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
 }
 
-.logoImgDlg{
-    width: 50px;
+.timerImgDIv {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
 }
-.modalAreaDiv{
-    display: flex;
-    justify-content: center;
+.detailTitle {
+  color: white;
 }
-.titleAreaDiv{
-    text-align: center;
-}
-.wlImgDiv:hover{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-.wlImg{
-    width: 40px;
+.detailContent {
+  color: #3fff00;
 }
 
-.loadingDiv{
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.logoImgDlg {
+  width: 50px;
+}
+.modalAreaDiv {
+  display: flex;
+  justify-content: center;
+}
+.titleAreaDiv {
+  text-align: center;
+}
+.wlImgDiv:hover {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.wlImg {
+  width: 40px;
 }
 
-.loadingDiv img{
-    width: 200px;
-    height: 200px;
-    color: #3EBADF;
+.loadingDiv {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingDiv img {
+  width: 200px;
+  height: 200px;
+  color: #3ebadf;
 }
 
 @media only screen and (max-width: 1600px) {
-    .showcoinDiv{
-        overflow-x: scroll;
-        
-        justify-content:start;
-        padding-top: 80px;
-        font-size: 15px;
-    }
-    .showcoinDiv::-webkit-scrollbar{
-        
-        height: 2px;
-        background-color:rebeccapurple ;
-    }
+  .showcoinDiv {
+    overflow-x: scroll;
 
-    .voteBtn{
-        font-size: 12px;
-    }
+    justify-content: start;
+    padding-top: 80px;
+    font-size: 15px;
+  }
+  .showcoinDiv::-webkit-scrollbar {
+    height: 2px;
+    background-color: rebeccapurple;
+  }
 
-    .voteBtnWrapped{
-        width: 100px;
-    }
+  .voteBtn {
+    font-size: 12px;
+  }
 
-    .diamondWrappedDiv{
-        height: 40px;
-        width: 180px;
-        top: -20px;
-        left: 20px;
-    }
-    .rubyWrappedDiv{
-        height: 40px;
-        width: 180px;
-        top: -20px;
-        left: 220px;
-    }
-    .emeraldWrappedDiv{
-        height: 40px;
-        width: 180px;
-        top: -20px;
-        left: 420px;
-    }
+  .voteBtnWrapped {
+    width: 100px;
+  }
 
+  .diamondWrappedDiv {
+    height: 40px;
+    width: 180px;
+    top: -20px;
+    left: 20px;
+  }
+  .rubyWrappedDiv {
+    height: 40px;
+    width: 180px;
+    top: -20px;
+    left: 220px;
+  }
+  .emeraldWrappedDiv {
+    height: 40px;
+    width: 180px;
+    top: -20px;
+    left: 420px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .loadingDiv{
-        height: 180px;
-    }
-    
-    .loadingDiv img{
-        width: 100px;
-        height: 100px;
-        color: #3EBADF;
-    }
+  .loadingDiv {
+    height: 180px;
+  }
 
-    .showcoinDiv::-webkit-scrollbar{
-        
-        height: 2px;
-        background-color:rebeccapurple ;
-    }
+  .loadingDiv img {
+    width: 100px;
+    height: 100px;
+    color: #3ebadf;
+  }
 
+  .showcoinDiv::-webkit-scrollbar {
+    height: 2px;
+    background-color: rebeccapurple;
+  }
 }
-
-
-

@@ -1,8 +1,8 @@
 export const calculateTimeLeft = () => {
-  const presaleDate = new Date(Date.UTC(2021, 9, 4, 23, 0, 0))
-  const difference = presaleDate - new Date()
+  const presaleDate = new Date(Date.UTC(2021, 9, 4, 23, 0, 0));
+  const difference = presaleDate - new Date();
 
-  let timeLeft = {}
+  let timeLeft = {};
 
   if (difference > 0) {
     timeLeft = {
@@ -22,8 +22,8 @@ export const calculateTimeLeft = () => {
         Math.floor((difference / 1000) % 60) < 10
           ? `0${Math.floor((difference / 1000) % 60)}`
           : `${Math.floor((difference / 1000) % 60)}`,
-    }
+    };
   }
 
-  return timeLeft
-}
+  return timeLeft;
+};

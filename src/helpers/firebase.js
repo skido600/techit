@@ -1,6 +1,6 @@
 // JavaScript
 // src.firebase.js
-import firebase from "firebase";
+import firebase from 'firebase';
 
 // For test
 // const firebaseConfig = {
@@ -16,19 +16,18 @@ import firebase from "firebase";
 
 // For Live
 const firebaseConfig = {
-  apiKey: "AIzaSyAxgGc3Z8MCeJ_Z82oMMV4lkMSiPrpKVoM",
-  authDomain: "coinlocator.firebaseapp.com",
-  databaseURL: "https://coinlocator-default-rtdb.firebaseio.com",
-  projectId: "coinlocator",
-  storageBucket: "coinlocator4.appspot.com",
-  messagingSenderId: "8352909318",
-  appId: "1:83529049318:web:2445b47414b519ef494727",
-  measurementId: "G-L1CJP63Z1Y"
+  apiKey: 'AIzaSyAxgGc3Z8MCeJ_Z82oMMV4lkMSiPrpKVoM',
+  authDomain: 'coinlocator.firebaseapp.com',
+  databaseURL: 'https://coinlocator-default-rtdb.firebaseio.com',
+  projectId: 'coinlocator',
+  storageBucket: 'coinlocator4.appspot.com',
+  messagingSenderId: '8352909318',
+  appId: '1:83529049318:web:2445b47414b519ef494727',
+  measurementId: 'G-L1CJP63Z1Y',
 };
 
-firebase.initializeApp(firebaseConfig)
+firebase.initializeApp(firebaseConfig);
 
-export default firebase
-export const database = firebase.database()
-export const storage = firebase.storage()
-
+export default firebase;
+export const database = firebase.database();
+export const storage = firebase.storage();

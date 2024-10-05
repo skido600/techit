@@ -1,14 +1,12 @@
-
 html {
-  --scrollbarBG: #CFD8DC;
-  --thumbBG: #90A4AE;
+  --scrollbarBG: #cfd8dc;
+  --thumbBG: #90a4ae;
 }
 body {
   margin: 0;
   font-family: s;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 /* 
 code {

@@ -1,7 +1,8 @@
 @font-face {
-  font-family: "Poppins";   /*Can be any text*/
-  src: local("Poppins"),
-    url("./fonts/Poppins-Light.ttf") format("truetype");
+  font-family: 'Poppins'; /*Can be any text*/
+  src:
+    local('Poppins'),
+    url('./fonts/Poppins-Light.ttf') format('truetype');
 }
 
 // @font-face {
@@ -11,14 +12,13 @@
 // }
 
 body {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   // background-color: black;
   // overflow-x: hidden;
 
   // font-family: digital;
   // color: white;
 }
-
 
 // .container {
 //   max-width: 1400px;
