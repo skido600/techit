@@ -16,14 +16,12 @@
   "bugs": {
     "url": "https://github.com/coin-promoting/coin-promoting/issues"
   },
-  "homepage": "https://github.com/coin-promoting/coin-promoting#readme",
   "author": "Lamoerey",
   "dependencies": {
     "body-parser": "^1.19.0",
     "bootstrap": "4.3.1",
     "chai": "4.2.0",
     "chalk": "^4.1.2",
-    "child_process": "^1.0.2",
     "concurrently": "5.1.0",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
@@ -88,7 +86,7 @@
     "sequelize-cli": "^5.5.0"
   },
   "scripts": {
-    "start": "concurrently \"npm run server\" \"react-scripts --openssl-legacy-provider star\" --kill-others --kill-others-on-fail",
+    "start": "concurrently \"npm run server\" \"react-scripts --openssl-legacy-provider start\" --kill-others --kill-others-on-fail",
     "server": "node server/app.js",
     "test": "react-scripts test",
     "start-server": "nodemon server/app.js --watch server/*",
