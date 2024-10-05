@@ -22,3 +22,4 @@ yarn-error.log*
 package
 yarn.lock
 /server/data/database.sqlite
+package-lock.json
