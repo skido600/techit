@@ -40,7 +40,7 @@ The working is as follows:
 Clone Repo:
 
 ```sh
-git clone https://github.com/incredible1105/Token-voting-dapp
+git clone https://github.com/TJ9373/Token-voting-dapp
 cd Token-voting-dapp
 ```
 
