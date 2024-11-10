@@ -86,7 +86,7 @@
     "sequelize-cli": "^5.5.0"
   },
   "scripts": {
-    "start": "concurrently \"npm run server\" \"react-scripts --openssl-legacy-provider start\" --kill-others --kill-others-on-fail",
+    "start": "concurrently \"react-scripts --openssl-legacy-provider start\" --kill-others --kill-others-on-fail",
     "server": "node server/app.js",
     "test": "react-scripts test",
     "start-server": "nodemon server/app.js --watch server/*",
